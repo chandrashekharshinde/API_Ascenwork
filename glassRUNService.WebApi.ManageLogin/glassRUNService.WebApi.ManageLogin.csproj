@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="5.6.0" />
+ 
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\APIController.Framework\APIController.Framework.csproj" />
+    <ProjectReference Include="..\glassRUNService.WebAPI.ManageEnquiry\glassRUNService.WebAPI.ManageEnquiry.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Blankchq.Framework.Service.Helper">
+      <HintPath>..\..\..\..\AzureTFS\glassRUN Product\200 - SDLC\300 - Development-VBL-TC\LoginWebUI\LoginWebUI\Login.Web\bin\Blankchq.Framework.Service.Helper.dll</HintPath>
+    </Reference>
+    <Reference Include="Login.Web">
+      <HintPath>..\..\..\..\AzureTFS\glassRUN Product\200 - SDLC\300 - Development-VBL-TC\LoginWebUI\LoginWebUI\Login.Web\bin\Login.Web.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

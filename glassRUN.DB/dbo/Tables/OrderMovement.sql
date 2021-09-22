@@ -1,0 +1,37 @@
+﻿CREATE TABLE [dbo].[OrderMovement] (
+    [OrderMovementId]      BIGINT         IDENTITY (1, 1) NOT NULL,
+    [OrderId]              BIGINT         NULL,
+    [TransportOperatorId]  BIGINT         NULL,
+    [DeliveryPersonnelId]  BIGINT         NULL,
+    [Location]             BIGINT         NULL,
+    [LocationType]         INT            NULL,
+    [Action]               INT            NULL,
+    [State]                BIGINT         NULL,
+    [StartTime]            DATETIME       NULL,
+    [PraposedTimeOfAction] DATETIME       NULL,
+    [PraposedShift]        NVARCHAR (50)  NULL,
+    [ExpectedTimeOfAction] DATETIME       NULL,
+    [ExpectedShift]        NVARCHAR (50)  NULL,
+    [ActualTimeOfAction]   DATETIME       NULL,
+    [Latitude]             NVARCHAR (250) NULL,
+    [Longitude]            NVARCHAR (250) NULL,
+    [GroupName]            NVARCHAR (250) NULL,
+    [GroupRouteCode]       NVARCHAR (250) NULL,
+    [IsActive]             BIT            NULL,
+    [CreatedBy]            BIGINT         NULL,
+    [CreatedDate]          DATETIME       CONSTRAINT [DF_OrderMovement_CreatedDate] DEFAULT (getdate()) NULL,
+    [UpdateBy]             BIGINT         NULL,
+    [UpdatedDate]          DATETIME       NULL,
+    [OrderMovmentGuid]     NVARCHAR (250) NULL,
+    [IsUnloadGroup]        BIT            NULL,
+    [IsMarkedDraft]        BIT            CONSTRAINT [DF_OrderMovement_IsMarkedDraft_1] DEFAULT ((0)) NULL,
+    [PlanNumber]           NVARCHAR (250) NULL,
+    [IsArrived]            BIT            NULL,
+    [ArrivedDateTime]      DATETIME       NULL,
+    [ShiftName]            NVARCHAR (200) NULL,
+    CONSTRAINT [PK_OrderMovement] PRIMARY KEY CLUSTERED ([OrderMovementId] ASC) WITH (FILLFACTOR = 80),
+    CONSTRAINT [FK_OrderMovement_Order] FOREIGN KEY ([OrderId]) REFERENCES [dbo].[Order] ([OrderId])
+);
+
+
+

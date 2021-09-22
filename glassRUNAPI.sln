@@ -1,0 +1,134 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "APIFramework", "APIFramework", "{28152A57-5E86-449A-B6F4-F59DAF639FCB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APIController.Framework", "APIController.Framework\APIController.Framework.csproj", "{FD8E9EA5-26F8-42DB-894B-50377FBDA866}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ManageEnquiry", "ManageEnquiry", "{28F3D4CB-490E-439C-9023-2E5EFE3B60CC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "glassRUNService.WebAPI.ManageEnquiry", "glassRUNService.WebAPI.ManageEnquiry\glassRUNService.WebAPI.ManageEnquiry.csproj", "{B366A9B6-37A4-4185-A779-9206654573D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{331EE365-C8F3-4DB4-B6F9-C2D5941B24E0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "glassRUNService.WebApi.Configurations", "glassRUNService.WebApi.Configurations\glassRUNService.WebApi.Configurations.csproj", "{02EEF3F7-2B0B-4A7F-A3D3-FB69F2D31A60}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ManageLogin", "ManageLogin", "{CABEAE79-62B7-4CFE-980D-6620BC4F208E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "glassRUNService.WebApi.ManageLogin", "glassRUNService.WebApi.ManageLogin\glassRUNService.WebApi.ManageLogin.csproj", "{E71898F3-B901-458C-9321-0CE57DBAC4F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EB7BB8ED-8712-4AD9-ABEA-D5F4A7480875}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProcessRequest", "ProcessRequest", "{7AAF928D-8933-429E-BA85-98D24844DCA3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "glassRUNService.WebApi.ProcessRequest", "glassRUNService.WebApi.ProcessRequest\glassRUNService.WebApi.ProcessRequest.csproj", "{F75D6233-4CC1-4ABE-BB8B-98A73F8716A8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{C678CA52-8A65-4D6E-8FE3-F51E667CB9AA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "glassRUNService.WebAPI.Common", "glassRUNService.WebAPI.Common\glassRUNService.WebAPI.Common.csproj", "{BCE72EDE-3F53-47FD-A58E-EEB4790CDAB5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ManageCustomer", "ManageCustomer", "{C632E7FD-5810-4709-8C07-D8032D25A8D4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "glassRUNService.WebAPI.ManageCustomer", "glassRUNService.WebAPI.ManageCustomer\glassRUNService.WebAPI.ManageCustomer.csproj", "{30F1694A-8F80-42D6-BC74-EE7A5D987DF5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "glassRUN.Framework", "glassRUN.Framework\glassRUN.Framework.csproj", "{B6456367-DC7F-41A5-A7D7-F9D59F6E1EF1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "glassRUNProduct.DataAccess.Common", "glassRUNProduct.DataAccess.Common\glassRUNProduct.DataAccess.Common.csproj", "{8172A48F-0135-45F0-9CBA-519D9592F4B7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "glassRUNService.WebApi.ManageProduct", "glassRUNService.WebApi.ManageProduct\glassRUNService.WebApi.ManageProduct.csproj", "{171C4A20-F4FB-489C-B3FA-2A23E805DAFC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ManageProduct", "ManageProduct", "{63FF2F90-E058-4748-8657-D8AB5DDDD0E2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPIBuild", "WebAPIBuild\WebAPIBuild.csproj", "{39E22C11-1594-4DDA-85E6-39C7DA2F4BEE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VehicleMaster", "VehicleMaster", "{6A7BE0AA-D742-4B2E-ADE1-9065319A3160}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "glassRUNService.WebApi.VehicleMaster", "glassRUNService.WebApi.VehicleMaster\glassRUNService.WebApi.VehicleMaster.csproj", "{916970E4-413B-449B-A5FF-E9C4F5354A7B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ManageInventory", "ManageInventory", "{B4FCC304-4EA4-4840-B278-7CF603069A2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "glassRUNService.WebApi.ManageInventory", "glassRUNService.WebApi.ManageInventory\glassRUNService.WebApi.ManageInventory.csproj", "{B994F473-6BDE-47B9-852A-791AE467463A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD8E9EA5-26F8-42DB-894B-50377FBDA866}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD8E9EA5-26F8-42DB-894B-50377FBDA866}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD8E9EA5-26F8-42DB-894B-50377FBDA866}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD8E9EA5-26F8-42DB-894B-50377FBDA866}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B366A9B6-37A4-4185-A779-9206654573D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B366A9B6-37A4-4185-A779-9206654573D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B366A9B6-37A4-4185-A779-9206654573D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B366A9B6-37A4-4185-A779-9206654573D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02EEF3F7-2B0B-4A7F-A3D3-FB69F2D31A60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02EEF3F7-2B0B-4A7F-A3D3-FB69F2D31A60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02EEF3F7-2B0B-4A7F-A3D3-FB69F2D31A60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02EEF3F7-2B0B-4A7F-A3D3-FB69F2D31A60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E71898F3-B901-458C-9321-0CE57DBAC4F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E71898F3-B901-458C-9321-0CE57DBAC4F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E71898F3-B901-458C-9321-0CE57DBAC4F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E71898F3-B901-458C-9321-0CE57DBAC4F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F75D6233-4CC1-4ABE-BB8B-98A73F8716A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F75D6233-4CC1-4ABE-BB8B-98A73F8716A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F75D6233-4CC1-4ABE-BB8B-98A73F8716A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F75D6233-4CC1-4ABE-BB8B-98A73F8716A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCE72EDE-3F53-47FD-A58E-EEB4790CDAB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCE72EDE-3F53-47FD-A58E-EEB4790CDAB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCE72EDE-3F53-47FD-A58E-EEB4790CDAB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCE72EDE-3F53-47FD-A58E-EEB4790CDAB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30F1694A-8F80-42D6-BC74-EE7A5D987DF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30F1694A-8F80-42D6-BC74-EE7A5D987DF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30F1694A-8F80-42D6-BC74-EE7A5D987DF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30F1694A-8F80-42D6-BC74-EE7A5D987DF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6456367-DC7F-41A5-A7D7-F9D59F6E1EF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6456367-DC7F-41A5-A7D7-F9D59F6E1EF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6456367-DC7F-41A5-A7D7-F9D59F6E1EF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6456367-DC7F-41A5-A7D7-F9D59F6E1EF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8172A48F-0135-45F0-9CBA-519D9592F4B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8172A48F-0135-45F0-9CBA-519D9592F4B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8172A48F-0135-45F0-9CBA-519D9592F4B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8172A48F-0135-45F0-9CBA-519D9592F4B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{171C4A20-F4FB-489C-B3FA-2A23E805DAFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{171C4A20-F4FB-489C-B3FA-2A23E805DAFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{171C4A20-F4FB-489C-B3FA-2A23E805DAFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{171C4A20-F4FB-489C-B3FA-2A23E805DAFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39E22C11-1594-4DDA-85E6-39C7DA2F4BEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39E22C11-1594-4DDA-85E6-39C7DA2F4BEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39E22C11-1594-4DDA-85E6-39C7DA2F4BEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39E22C11-1594-4DDA-85E6-39C7DA2F4BEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{916970E4-413B-449B-A5FF-E9C4F5354A7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{916970E4-413B-449B-A5FF-E9C4F5354A7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{916970E4-413B-449B-A5FF-E9C4F5354A7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{916970E4-413B-449B-A5FF-E9C4F5354A7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B994F473-6BDE-47B9-852A-791AE467463A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B994F473-6BDE-47B9-852A-791AE467463A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B994F473-6BDE-47B9-852A-791AE467463A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B994F473-6BDE-47B9-852A-791AE467463A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FD8E9EA5-26F8-42DB-894B-50377FBDA866} = {28152A57-5E86-449A-B6F4-F59DAF639FCB}
+		{B366A9B6-37A4-4185-A779-9206654573D5} = {28F3D4CB-490E-439C-9023-2E5EFE3B60CC}
+		{02EEF3F7-2B0B-4A7F-A3D3-FB69F2D31A60} = {331EE365-C8F3-4DB4-B6F9-C2D5941B24E0}
+		{E71898F3-B901-458C-9321-0CE57DBAC4F0} = {CABEAE79-62B7-4CFE-980D-6620BC4F208E}
+		{F75D6233-4CC1-4ABE-BB8B-98A73F8716A8} = {7AAF928D-8933-429E-BA85-98D24844DCA3}
+		{BCE72EDE-3F53-47FD-A58E-EEB4790CDAB5} = {C678CA52-8A65-4D6E-8FE3-F51E667CB9AA}
+		{30F1694A-8F80-42D6-BC74-EE7A5D987DF5} = {C632E7FD-5810-4709-8C07-D8032D25A8D4}
+		{171C4A20-F4FB-489C-B3FA-2A23E805DAFC} = {63FF2F90-E058-4748-8657-D8AB5DDDD0E2}
+		{916970E4-413B-449B-A5FF-E9C4F5354A7B} = {6A7BE0AA-D742-4B2E-ADE1-9065319A3160}
+		{B994F473-6BDE-47B9-852A-791AE467463A} = {B4FCC304-4EA4-4840-B278-7CF603069A2E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4FE7D8B9-5B0C-4A89-BE33-741A66B49A26}
+	EndGlobalSection
+EndGlobal

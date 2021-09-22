@@ -1,0 +1,42 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.3" />
+    <PackageReference Include="prometheus-net.AspNetCore" Version="4.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\APIController.Framework\APIController.Framework.csproj" />
+    <ProjectReference Include="..\glassRUN.Framework\glassRUN.Framework.csproj" />
+    <ProjectReference Include="..\glassRUNProduct.DataAccess.Common\glassRUNProduct.DataAccess.Common.csproj" />
+    <ProjectReference Include="..\glassRUNService.WebAPI.Common\glassRUNService.WebAPI.Common.csproj" />
+    <ProjectReference Include="..\glassRUNService.WebApi.Configurations\glassRUNService.WebApi.Configurations.csproj" />
+    <ProjectReference Include="..\glassRUNService.WebAPI.ManageCustomer\glassRUNService.WebAPI.ManageCustomer.csproj" />
+    <ProjectReference Include="..\glassRUNService.WebAPI.ManageEnquiry\glassRUNService.WebAPI.ManageEnquiry.csproj" />
+    <ProjectReference Include="..\glassRUNService.WebApi.ManageInventory\glassRUNService.WebApi.ManageInventory.csproj" />
+    <ProjectReference Include="..\glassRUNService.WebApi.ManageLogin\glassRUNService.WebApi.ManageLogin.csproj" />
+    <ProjectReference Include="..\glassRUNService.WebApi.ManageProduct\glassRUNService.WebApi.ManageProduct.csproj" />
+    <ProjectReference Include="..\glassRUNService.WebApi.ProcessRequest\glassRUNService.WebApi.ProcessRequest.csproj" />
+    <ProjectReference Include="..\glassRUNService.WebApi.VehicleMaster\glassRUNService.WebApi.VehicleMaster.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="glassRUNProduct.WebAPI.WorkFlow">
+      <HintPath>..\glassRUNProduct.WebAPI.WorkFlow\bin\Debug\netcoreapp3.1\glassRUNProduct.WebAPI.WorkFlow.dll</HintPath>
+    </Reference>
+    <Reference Include="glassRUNService.WebApi.ManageOrder">
+      <HintPath>..\glassRUNService.WebApi.ManageOrder\bin\Debug\netcoreapp3.1\glassRUNService.WebApi.ManageOrder.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+
+</Project>

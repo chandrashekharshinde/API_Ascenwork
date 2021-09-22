@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="3.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="3.1.4" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.1" />
+    <PackageReference Include="StackExchange.Redis" Version="2.2.4" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="5.6.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\APIController.Framework\APIController.Framework.csproj" />
+    <ProjectReference Include="..\glassRUNService.WebApi.Configurations\glassRUNService.WebApi.Configurations.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Blankchq.Framework.Service.Helper">
+      <HintPath>..\..\..\..\AzureTFS\glassRUN Product\200 - SDLC\300 - Development-VBL-TC\LoginWebUI\LoginWebUI\Login.Web\bin\Blankchq.Framework.Service.Helper.dll</HintPath>
+    </Reference>
+    <Reference Include="Login.Web">
+      <HintPath>..\..\..\..\AzureTFS\glassRUN Product\200 - SDLC\300 - Development-VBL-TC\LoginWebUI\LoginWebUI\Login.Web\bin\Login.Web.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+
+</Project>

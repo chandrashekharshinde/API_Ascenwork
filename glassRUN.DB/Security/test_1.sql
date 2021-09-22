@@ -1,0 +1,3 @@
+﻿CREATE LOGIN [test]
+    WITH PASSWORD = N'gbm18zkyhoebobDkubajV,XdmsFT7_&#$!~<wvauc#y{lm{Z', SID = 0xB1B9ED44A7A20B44995EE186F8AD575E, DEFAULT_LANGUAGE = [us_english], CHECK_EXPIRATION = ON;
+
